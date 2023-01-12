@@ -1,0 +1,133 @@
+/*----------------------------------------------------------------------------------------
+	1. Reset
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+i, em {
+	font-style: italic;
+}
+
+b, strong, em {
+	font-weight: bold;
+}
+
+abbr {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+/*----------------------------------------------------------------------------------------
+	2. General
+----------------------------------------------------------------------------------------*/
+body {
+	font: 18px Cuprum, Helvetica, sans-serif;
+	line-height: 150%;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+/*----------------------------------------------------------------------------------------
+	2.2. Links
+----------------------------------------------------------------------------------------*/
+.lang a:link, .lang a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 3px;
+}
+
+.lang a:hover, .lang a:active {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 3px;
+}
+	
+/*----------------------------------------------------------------------------------------
+	3. Structure
+----------------------------------------------------------------------------------------*/
+#page {
+	height: 100%;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+p {
+	padding: 10px!important;
+}
+
+.social {
+	cursor: default;
+}
+
+.social img {
+	height: 64px;
+	width: 64px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.social a:hover img, .social a:active img {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrap {
+	height: 30px;
+}
