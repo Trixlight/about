@@ -142,9 +142,7 @@ body {
   line-height: 1.25;
   height: 100%;
   color: #EEE;
-  background-color: #000000;
-  background-image: url(theme/images/bg.jpg);
-  backdrop-filter: blur(5px);
+  background-color: #000;
 }
 
 main {
@@ -166,6 +164,7 @@ main {
   top: 0;
   bottom: 0;
   z-index: -1;
+  filter: blur(5px);
 }
 
 section {
@@ -174,7 +173,7 @@ section {
   padding: 50px;
   text-align: center;
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 64px;
 }
 
 .gradient {
@@ -184,7 +183,7 @@ section {
   position: absolute;
   margin: -100px;
   z-index: -1;
-  background: linear-gradient(-45deg, #44443b, #292323, #000000, #333d3a);
+  background: linear-gradient(-45deg, #44443b, #2b1f1f, #121827, #333d3a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   opacity: 0.98;
@@ -245,17 +244,23 @@ a:active {
   margin: 25px 0 0;
 }
 
-.social img {
-  height: 64px;
-  width: 64px;
-  padding: 5px;
-  border-radius: 16px;
-  background-color: #000000;
+.social a {
+  display: inline-block;
+  width: min-content;
+  padding: 6px 6px 2px;
+  border-radius: 24px;
+  margin: 0 3px;
+  background-color: #ffffffe5;
   transition: ease-in-out 300ms;
 }
 
-.social a:hover img,
-.social a:active img {
-  opacity: 0.8;
-  transition: ease-in-out 300ms;
+.social img {
+  height: 48px;
+  width: 48px;
+}
+
+.social a:hover,
+.social a:active {
+  background-color: #8d94ebe5;
+  transition: ease-in-out 150ms;
 }
