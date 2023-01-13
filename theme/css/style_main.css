@@ -223,15 +223,24 @@ h2 {
   padding: 0 0 15px;
 }
 
+span {
+  color: #a19e9e;
+  font-weight: 300;
+}
+
 p {
   font-weight: 300;
   padding-bottom: 15px;
 }
 
+p img {
+  vertical-align: sub;
+}
+
 a:link,
 a:visited {
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline dotted;
 }
 
 a:hover,
