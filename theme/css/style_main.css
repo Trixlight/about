@@ -212,14 +212,13 @@ h1 {
   font-size: 30px;
   color: #EEE;
   font-weight: 600;
-  padding: 0 0 5px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 300;
   color: #CCC;
-  padding: 0 0 15px;
+  padding-bottom: 15px;
 }
 
 span {
@@ -249,8 +248,19 @@ a:active {
   text-decoration: none;
 }
 
+code.inline {
+  width: auto;
+  height: auto;
+  padding: 0.2em;
+  margin: -0.2em 0;
+  border-radius: 3px;
+  font-size: 85%;
+  font-family: "Fira Mono";
+  background: #393c42;
+}
+
 .social {
-  margin: 25px 0 0;
+  margin: 30px 0 0;
 }
 
 .social a {
@@ -263,7 +273,7 @@ a:active {
   transition: ease-in-out 300ms;
 }
 
-.social img {
+.social a img {
   height: 48px;
   width: 48px;
 }
@@ -272,4 +282,9 @@ a:active {
 .social a:active {
   background-color: #8d94ebe5;
   transition: ease-in-out 150ms;
+}
+
+footer {
+  margin: 30px 0 0;
+  font-size: 0.75rem;
 }
